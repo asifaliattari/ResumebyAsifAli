@@ -1,0 +1,117 @@
+input:focus, textarea:focus {
+    border-color: #635338;
+    outline: none;
+}
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #resumeoutput {
+        padding: 10px;
+    }
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f5f5dc;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #f5f5dc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .8);
+    padding: 25px;
+}   
+
+fieldset{
+    border: 2px solid #2f1f1f;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(247, 239, 228, 0.81);
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin-top: 5px;
+    }
+
+/* .profileimage{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid;
+    box-shadow: 0 4px 8px rgba(188, 133, 51, 0.8);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+} */
+
+input,textarea{
+    width: auto;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: vertical; /*allow user to vertically resize textarea (not horizentally)*/
+}
+
+button{
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: #635338;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    background-color: #261f13;
+}
+#skill{
+    width: 100%;
+}
+#experience{
+    width: 100%;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #f5f5dc;
+    border-radius: 8px;
+    background-color: bisque;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+#resumeOutput h2{
+    color: rgb(72, 73, 32);
+   }
