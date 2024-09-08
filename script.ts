@@ -32,7 +32,7 @@ const resumeOutput = `
 <p><strong>Phone:</strong> ${phone}</p>
 
 <h3>Education</h3>
-<p>${name}</p>
+<p>${education}</p>
 
 <h3>Experience</h3>
 <p>${experience}</p>
